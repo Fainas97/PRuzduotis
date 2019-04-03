@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+div.container {
+    display: inline-block;
+    padding: 15px;
+    margin: auto auto 15px;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 15px auto auto;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+a {
+    color: darkblue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: lightblue;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+td a {
+    text-decoration: none;
+}
+
+.pagination {
+    padding: 0;
+    margin: 5px 0 0;
+}
+
+
+.pagination li{
+    list-style-type: none;
+    display: inline-block;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+.pagination li a {
+    color: black;
+    float: left;
+    padding: 3px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 1px;
+}
+
+.pagination li a:visited{
+   color: black;
+}
+
+.pagination .disabled{
+   pointer-events: none;
+   background-color: lightgrey;
+}
+
+.pagination a:hover {background-color: lightblue;}
+
+div.error {
+    color: red;
+    padding: 5px;
+}
+
+div.success {
+    color: green;
+    padding: 5px;
+}
